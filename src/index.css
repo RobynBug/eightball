@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.eightBall {
+  background-color: rgb(24, 24, 24);
+  box-shadow: inset #3c409b 10px 10px;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 25rem;
+}
+
+.eightBallMessage {
+  color: white;
+  padding-top: 10rem;
+  font-size: 1.5rem;
+}
+
+button {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 2rem;
+  padding: 0.25rem;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+.green {
+  background-color: green;
+  box-shadow: inset rgb(22, 185, 22) 10px 10px;
+}
+
+.goldenrod {
+  background-color: goldenrod;
+  box-shadow: inset rgb(250, 190, 39) 10px 10px;
+}
+
+.red {
+  background-color: rgb(185, 12, 12);
+  box-shadow: inset rgb(253, 44, 44) 10px 10px;
+}
