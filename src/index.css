@@ -26,6 +26,10 @@ body {
   font-size: 1.5rem;
 }
 
+.colorInformation {
+  display: flex;
+}
+
 button {
   margin-top: 2rem;
   width: 5rem;
@@ -56,4 +60,20 @@ button {
 .red {
   background-color: rgb(185, 12, 12);
   box-shadow: inset rgb(253, 44, 44) 10px 10px;
+}
+
+.greenCount {
+  color: green;
+}
+
+.goldCount {
+  color: goldenrod;
+}
+
+.redCount {
+  color: red;
+}
+
+section {
+  margin: 1rem;
 }
